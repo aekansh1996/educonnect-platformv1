@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import LoginPage from './components/pages/Login';
 import SignupPage from './components/pages/Signup';
 import AboutSection from './components/pages/AboutSection';
+import Contact from './components/pages/Contact';
 import TutorDashboard from './components/pages/tutor/TutorDashboard';
 import OrgDashboard from './components/pages/organization/OrgDashboard';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -30,6 +31,7 @@ function App() {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/about" element={<AboutSection />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/profile" element={<ProfilePage />} />
 
             {/* Protected Routes */}
