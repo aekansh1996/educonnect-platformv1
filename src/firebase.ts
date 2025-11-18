@@ -6,12 +6,13 @@ import { getStorage } from 'firebase/storage';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAh8D6KuM5XKVXvgfdppv6TxfUQZZjVgIE",
-  authDomain: "educonnect-b13b9.firebaseapp.com",
-  projectId: "educonnect-b13b9",
-  storageBucket: "educonnect-b13b9.firebasestorage.app",
-  messagingSenderId: "582360763150",
-  appId: "1:582360763150:web:dd1a322c6f1e298adaa55f"
+  apiKey: "AIzaSyAMoYufbXkGQF3d4IL_oz5pDoe0MmFehzU",
+  authDomain: "trainerstree-ad84e.firebaseapp.com",
+  projectId: "trainerstree-ad84e",
+  storageBucket: "trainerstree-ad84e.firebasestorage.app",
+  messagingSenderId: "558041562947",
+  appId: "1:558041562947:web:6a71041fc7d4913db379f6",
+  measurementId: "G-2K72RLQT6W"
 };
 
 
