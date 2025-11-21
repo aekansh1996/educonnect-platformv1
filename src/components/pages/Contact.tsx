@@ -1,5 +1,5 @@
 import { Box, Heading, Text, VStack, Input, Textarea, Button } from '@chakra-ui/react';
-import Navbar from '../common/Navbar';
+import Navbar from '../common/navbar';
 import Footer from '../common/Footer';
 
 const Contact = () => {
