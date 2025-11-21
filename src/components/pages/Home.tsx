@@ -1,24 +1,29 @@
 
-import Navbar from '../common/navbar'; // Correct path depending on your folder structure
-import './Home.css'; // Optional for your custom styles
+import Navbar from '../common/navbar';
+import './Home.css';
 import HeroSection from '../common/HeroSection';
 import AboutSection from '../pages/AboutSection';
+import ForOrganizationsSection from '../common/ForOrganizationsSection';
+import ForTutorsSection from '../common/ForTutorsSection';
+import HowItWorksSection from '../common/HowItWorksSection';
 import AvailableSection from '../common/AvailableSection';
 import TestimonialsSection from '../common/TestimonialsSection';
 import FAQSection from '../common/FAQSection';
-import Footer from '../common/Footer'; // Ensure this path is correct   
-const Home = () => {
+import Footer from '../common/Footer';
 
+const Home = () => {
   return (
     <>
       <Navbar />
-        <HeroSection />
-        <AboutSection /> 
-        <AvailableSection/>
-        <TestimonialsSection />
-        <FAQSection />
-        <Footer />
-   
+      <HeroSection />
+      <AboutSection />
+      <ForOrganizationsSection />
+      <ForTutorsSection />
+      <HowItWorksSection />
+      <AvailableSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <Footer />
     </>
   );
 };

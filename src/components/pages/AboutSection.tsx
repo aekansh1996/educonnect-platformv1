@@ -1,33 +1,17 @@
 // src/components/pages/AboutSection.tsx
 
-import { Box, Heading, Text, SimpleGrid } from '@chakra-ui/react';
+import { Box, Heading, Text } from '@chakra-ui/react';
 
 const AboutSection = () => {
   return (
     <Box bg="white" py={20} px={6}>
-      <Box maxW="6xl" mx="auto" textAlign="center">
-        <Heading as="h2" size="xl" mb={6} color="blue.800">
-          Why Teacherstree?
+      <Box maxW="4xl" mx="auto" textAlign="center">
+        <Heading as="h2" size="xl" mb={8} color="blue.800">
+          Why Trainerstree?
         </Heading>
-        <Text fontSize="lg" mb={10} color="gray.600">
-          Teacherstree bridges the gap between skilled tutors and organizations looking for educational expertise.
-          Whether you're an educator or an institution, Teacherstree helps you connect, collaborate, and grow.
+        <Text fontSize="lg" lineHeight="1.8" color="gray.700">
+          Trainerstree is India's first commission-free marketplace that connects qualified tutors with organizations, colleges, NGOs, EdTechs, and training companies. We make hiring and getting hired simple, fast, and stress-free.
         </Text>
-
-        <SimpleGrid columns={[1, 2]} spacing={10} mt={10}>
-          <Box bg="gray.50" p={6} borderRadius="md" boxShadow="sm">
-            <Heading size="md" mb={2} color="blue.600">For Tutors</Heading>
-            <Text color="gray.600">
-              Find job opportunities, connect with top institutions, and grow your teaching career.
-            </Text>
-          </Box>
-          <Box bg="gray.50" p={6} borderRadius="md" boxShadow="sm">
-            <Heading size="md" mb={2} color="blue.600">For Organizations</Heading>
-            <Text color="gray.600">
-              Hire talented tutors, manage teaching staff, and scale your educational impact easily.
-            </Text>
-          </Box>
-        </SimpleGrid>
       </Box>
     </Box>
   );

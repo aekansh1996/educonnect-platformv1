@@ -23,13 +23,13 @@ const FAQSection = () => {
             <h2>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="medium">
-                  What is Teacherstree?
+                  Is the first job posting free?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Teacherstree is a platform that connects tutors with organizations and learners.
+              YES! Organizations get their first job posting completely free. You can post your initial opportunity without any cost and start receiving trainer recommendations instantly.
             </AccordionPanel>
           </AccordionItem>
 
@@ -37,13 +37,13 @@ const FAQSection = () => {
             <h2>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="medium">
-                  Is Teacherstree free to use?
+                  Do you charge trainers any commission?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Yes, the platform offers free access for basic features. Premium options will be introduced in the future.
+              NO! Trainerstree is commission-free for tutors. You keep 100% of your earnings. We believe tutors should be fairly compensated for their expertise and time.
             </AccordionPanel>
           </AccordionItem>
 
@@ -51,13 +51,55 @@ const FAQSection = () => {
             <h2>
               <AccordionButton>
                 <Box flex="1" textAlign="left" fontWeight="medium">
-                  How do I sign up as a tutor?
+                  Is resume scanning automatic?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              You can sign up as a tutor by selecting the “Tutor” role during the sign-up process.
+              YES, AI-powered! Our intelligent resume scanner automatically reads your resume and fills your profile with skills, experience, and specializations. No manual data entry needed.
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontWeight="medium">
+                  What types of organizations use Trainerstree?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Colleges, universities, NGOs, EdTech companies, corporates, training institutes, and any organization looking to hire skilled trainers and instructors.
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontWeight="medium">
+                  How does the AI matching work?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Our AI analyzes trainer profiles, skills, experience, and specializations to recommend the best matches for job postings. This ensures tutors get relevant opportunities and organizations find the right fit.
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box flex="1" textAlign="left" fontWeight="medium">
+                  Can I apply to multiple opportunities?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Yes! You can apply to as many opportunities as you want. With one-click applications, you can easily find and apply for multiple roles that match your expertise.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>
